@@ -1,0 +1,74 @@
+Rule-Based Chatbot in Python
+A simple rule-based chatbot built using Python. This chatbot interacts with users through predefined responses based on user input. It demonstrates the use of conditional statements, loops, functions, and basic date/time handling in Python.
+Features
+Responds to greetings such as hello and hi
+Replies to common questions like:
+How are you?
+What is your name?
+Who made you?
+What can you do?
+Greets users based on the time of day
+Tells a joke
+Displays the current date and time
+Handles unknown inputs gracefully
+Exits the conversation when the user types bye
+ Technologies Used
+Python 3
+Built-in datetime module
+ Project Structure
+chatbot.py
+README.md
+How to Run
+Make sure Python 3 is installed on your system.
+Save the code as chatbot.py.
+Open a terminal or command prompt.
+Run the program:
+python chatbot.py
+ Supported Commands
+User Input	Chatbot Response
+hello	Hi there!
+hi	Hello!
+good morning	Good morning! Have a great day!
+good evening	Good evening!
+how are you	I'm fine, thanks!
+what is your name	My name is ChatBot.
+who made you	I was created using Python.
+what can you do	I can chat with you and answer simple questions.
+tell me a joke	Displays a simple joke
+favorite color	I like blue because it looks cool on screens!
+thank you	You're welcome!
+time	Shows current system time
+date	Shows today's date
+bye	Ends the chat session
+📖 Example Output
+🤖 Chatbot: Hello! Type 'bye' to exit.
+
+You: hello
+🤖 Chatbot: Hi there!
+
+You: how are you
+🤖 Chatbot: I'm fine, thanks!
+
+You: time
+🤖 Chatbot: Current time is 10:45:12
+
+You: bye
+🤖 Chatbot: Goodbye! Have a nice day!
+ Learning Objectives
+This project helps beginners understand:
+Functions in Python
+Infinite loops using while
+Conditional statements (if, elif, else)
+User input handling
+String manipulation
+Using Python's datetime module
+Building interactive console applications
+Future Improvements
+Add more conversation options
+Support multiple languages
+Store chat history
+Integrate with APIs for weather and news
+Add a graphical user interface (GUI)
+ Author
+Aryan
+Python Beginner Project – Rule-Based Chatbot
