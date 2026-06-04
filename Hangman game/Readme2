@@ -1,0 +1,92 @@
+Stock Portfolio Tracker in Python
+A simple Python-based Stock Portfolio Tracker that allows users to enter stock names and quantities, calculates the investment value for each stock, displays a portfolio summary, and optionally saves the results to a text file.
+This project is designed for beginners to practice Python fundamentals such as dictionaries, loops, conditional statements, user input handling, lists, and file operations.
+Features
+Track investments in predefined stocks
+Calculate individual stock investment values
+Calculate total portfolio value
+Display a detailed investment summary
+Save portfolio details to a text file
+Handle invalid stock symbols gracefully
+Technologies Used
+Python 3
+Built-in file handling
+Dictionaries
+Lists
+Loops and conditional statements
+Project Structure
+stock_tracker.py
+README.md
+investment_summary.txt   # Generated after saving results
+Available Stocks
+The program currently supports the following stocks:
+Stock Symbol	Price ($)
+AAPL	180
+TSLA	250
+GOOGL	140
+AMZN	130
+MSFT	320
+You can easily add more stocks by updating the stock_prices dictionary.
+How to Run
+Install Python 3 on your system.
+Save the code as stock_tracker.py.
+Open a terminal or command prompt.
+Run the program:
+python stock_tracker.py
+Example Execution
+How many stocks do you want to add? 2
+
+Enter stock name: AAPL
+Enter quantity: 5
+Added AAPL investment: $900
+
+Enter stock name: TSLA
+Enter quantity: 2
+Added TSLA investment: $500
+
+--- Investment Summary ---
+AAPL - Quantity: 5, Price: $180, Total: $900
+TSLA - Quantity: 2, Price: $250, Total: $500
+
+Total Investment Value: $1400
+
+Do you want to save the result to a file? (yes/no): yes
+
+Results saved to investment_summary.txt
+Concepts Used
+This project demonstrates:
+Dictionaries for storing stock prices
+Lists for storing investment records
+User input and output
+for loops
+if-else conditions
+String formatting using f-strings
+File handling (open(), write())
+Basic portfolio management logic
+📁 Output File
+When the user chooses yes, the program creates:
+investment_summary.txt
+Example content:
+--- Investment Summary ---
+
+AAPL - Quantity: 5, Price: $180, Total: $900
+TSLA - Quantity: 2, Price: $250, Total: $500
+
+Total Investment Value: $1400
+Future Enhancements
+Fetch live stock prices using APIs
+Add profit/loss calculation
+Support buying and selling stocks
+Store portfolio data in CSV or Excel files
+Create a graphical user interface (GUI)
+Visualize investments using charts
+Learning Objectives
+By building this project, you will learn:
+How to work with dictionaries and lists
+How to process user inputs
+How to perform calculations in Python
+How to save data to files
+How to build simple financial applications
+Author
+Aryan
+Python Beginner Project – Stock Portfolio Tracker
