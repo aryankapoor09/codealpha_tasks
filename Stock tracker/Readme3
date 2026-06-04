@@ -1,0 +1,122 @@
+# Stock Portfolio Tracker
+
+A simple Python-based Stock Portfolio Tracker that allows users to:
+
+- Add multiple stock investments
+- Calculate investment value for each stock
+- Display a portfolio summary
+- Calculate total investment value
+- Save results to a text file
+
+## Features
+
+✅ Supports multiple stock entries
+
+✅ Predefined stock prices
+
+✅ Calculates individual investment values
+
+✅ Displays a detailed investment summary
+
+✅ Calculates total portfolio value
+
+✅ Option to save results in a text file
+
+---
+
+## Available Stocks
+
+| Stock Symbol | Price ($) |
+|-------------|-----------|
+| AAPL | 180 |
+| TSLA | 250 |
+| GOOGL | 140 |
+| AMZN | 130 |
+| MSFT | 320 |
+
+---
+
+## How It Works
+
+1. User enters the number of stocks they want to add.
+2. User enters:
+   - Stock Symbol
+   - Quantity
+3. Program checks if the stock exists.
+4. Investment value is calculated:
+
+   Investment = Price × Quantity
+
+5. All investments are stored and displayed in a summary.
+6. Total portfolio value is calculated.
+7. User can choose to save the results to a file named:
+
+   `investment_summary.txt`
+
+---
+
+## Code Structure
+
+### Dictionary for Stock Prices
+
+```python
+stock_prices = {
+    "AAPL": 180,
+    "TSLA": 250,
+    "GOOGL": 140,
+    "AMZN": 130,
+    "MSFT": 320
+}
+investment = price * quantity
+total_investment += investment
+How many stocks do you want to add? 4
+
+Enter stock name: AAPL
+Enter quantity: 20
+Added AAPL investment: $3600
+
+Enter stock name: GOOGL
+Enter quantity: 20
+Added GOOGL investment: $2800
+
+Enter stock name: MSFT
+Enter quantity: 20
+Added MSFT investment: $6400
+
+Enter stock name: TSLA
+Enter quantity: 20
+Added TSLA investment: $5000
+
+--- Investment Summary ---
+
+AAPL - Quantity: 20, Price: $180, Total: $3600
+GOOGL - Quantity: 20, Price: $140, Total: $2800
+MSFT - Quantity: 20, Price: $320, Total: $6400
+TSLA - Quantity: 20, Price: $250, Total: $5000
+
+Total Investment Value: $17800
+Output File Example
+When the user selects yes, the following file is created:
+--- Investment Summary ---
+
+AAPL - Quantity: 20, Price: $180, Total: $3600
+GOOGL - Quantity: 20, Price: $140, Total: $2800
+MSFT - Quantity: 20, Price: $320, Total: $6400
+TSLA - Quantity: 20, Price: $250, Total: $5000
+
+Total Investment Value: $17800
+Requirements
+Python 3.x
+No external libraries are required.
+Future Enhancements
+Read stock prices from an API
+Add stock buying and selling functionality
+Store portfolio data in a database
+Generate portfolio performance reports
+Add graphical user interface (GUI)
+Export reports to CSV and Excel
+Author
+Aryan Kapoor
+Python Stock Portfolio Tracker Project
+
+This README is suitable for uploading the project to GitHub along with your Python file.
